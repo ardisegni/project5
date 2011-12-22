@@ -1,4 +1,8 @@
 Project5::Application.routes.draw do
+
+match 'pics/allUsers' => 'users#index' 
+resources :users
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
